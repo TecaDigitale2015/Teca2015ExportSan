@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>File di configurazione relativo al batch per la pubblicazione del Materiale per la Teca 2015</comment>
+
+    <entry key="lingua.Italiano">ita</entry>
+    <entry key="lingua.Francese">fra</entry>
+	<entry key="lingua.latino">lat</entry>
+	<entry key="lingua.spagnolo">spa</entry>
+
+	<entry key="istituto.ASLE.url">http://www.archiviodistatolecce.beniculturali.it/</entry>	
+	<entry key="istituto.ASLE.tipologia">Archivio di Stato</entry>	
+	<entry key="istituto.ASLE.cap">73100</entry>	
+	<entry key="istituto.ASLE.comune">Lecce</entry>	
+	<entry key="istituto.ASLE.paese">Italia</entry>	
+	<entry key="istituto.ASLE.provincia">LE</entry>	
+	<entry key="istituto.ASLE.indirizzo">Via Sozy Carafa 15</entry>	
+	<entry key="istituto.ASLE.orari">Lunedì - giovedì: 8,00 - 18,00\nvenerdì - sabato: 8,00 - 14,00</entry>	
+
+</properties>
