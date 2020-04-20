@@ -7,7 +7,7 @@
   <modules>
   	<module>tecaExportSan</module>
   	<module>tecaSchemaSan</module>
-  	<!-- module>TecaSchemaEad</module -->
+  	<module>TecaSchemaEad</module>
   	<module>TecaSchedaEac</module>
   </modules>
 	<distributionManagement>
