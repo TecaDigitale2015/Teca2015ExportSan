@@ -7,7 +7,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXParseException;
 
 import isbn._1_931666_22_9.Ead;
@@ -28,7 +29,7 @@ import mx.randalf.xsd.exception.XsdException;
  */
 public class EadXsd extends ReadXsd<Ead> {
 
-	Logger log = Logger.getLogger(EadXsd.class);
+	private Logger log = LogManager.getLogger(EadXsd.class);
 
 	/**
 	 * 
