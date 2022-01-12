@@ -10,7 +10,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import org.xml.sax.SAXParseException;
 
 import it.mibac.san.cat_import.CatImport;
@@ -27,7 +30,7 @@ import mx.randalf.xsd.exception.XsdException;
  */
 public class CatImportXsd extends ReadXsd<CatImport> {
 
-	private Logger log = Logger.getLogger(CatImportXsd.class);
+	private Logger log = LogManager.getLogger(CatImportXsd.class);
 
 	/**
 	 * 
@@ -58,7 +61,10 @@ public class CatImportXsd extends ReadXsd<CatImport> {
 			if (errors.getNumErr() == 0) {
 				result = true;
 				md5Tools = new MD5();
-				md5 = md5Tools.getDigest(fMag);
+//				md5 = md5Tools.getDigest(fMag);
+			    // 03/01/2022 Simone
+			    md5Tools = new MD5(fMag);
+			    md5 = md5Tools.getDigest();
 
 				fCert = new File(fMag.getAbsolutePath() + ".cert");
 				fw = new FileWriter(fCert);

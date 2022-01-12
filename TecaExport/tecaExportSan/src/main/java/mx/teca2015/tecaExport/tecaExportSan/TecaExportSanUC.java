@@ -15,11 +15,13 @@ import mx.teca2015.tecaExport.tecaExportSan.ead.Ua;
 import mx.teca2015.tecaExport.tecaExportSan.scheda.UC;
 import mx.teca2015.tecaExport.tecaExportSan.scheda.exception.JFileException;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class TecaExportSanUC extends TecaExportSanXls {
 
-	private Logger log = Logger.getLogger(TecaExportSanUC.class);
+	private Logger log = LogManager.getLogger(TecaExportSanUC.class);
 	private File fXml = null;
 	
 	

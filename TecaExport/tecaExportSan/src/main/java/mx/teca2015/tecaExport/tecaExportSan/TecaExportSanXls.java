@@ -55,11 +55,13 @@ import mx.randalf.xsd.exception.XsdException;
 import mx.teca2015.tecaExport.tecaExportSan.eac.Istituto;
 import mx.teca2015.tecaExport.tecaExportSan.ead.Fondo;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public abstract class TecaExportSanXls {
 
-	private Logger log = Logger.getLogger(TecaExportSanXls.class);
+	private Logger log = LogManager.getLogger(TecaExportSanXls.class);
 
 	public TecaExportSanXls() {
 	}

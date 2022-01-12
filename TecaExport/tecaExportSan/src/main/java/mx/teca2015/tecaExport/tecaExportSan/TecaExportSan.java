@@ -6,7 +6,9 @@ package mx.teca2015.tecaExport.tecaExportSan;
 import java.io.File;
 import java.io.FileFilter;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import mx.randalf.configuration.Configuration;
 import mx.randalf.configuration.exception.ConfigurationException;
@@ -17,7 +19,7 @@ import mx.randalf.configuration.exception.ConfigurationException;
  */
 public class TecaExportSan {
 
-	private Logger log = Logger.getLogger(TecaExportSan.class);
+	private Logger log = LogManager.getLogger(TecaExportSan.class);
 
 	/**
 	 * 

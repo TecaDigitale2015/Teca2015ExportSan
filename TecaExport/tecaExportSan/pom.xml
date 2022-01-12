@@ -3,15 +3,17 @@
   <parent>
     <groupId>mx.teca2015.tecaExport</groupId>
     <artifactId>TecaExport</artifactId>
-    <version>1.0.0</version>
+    <version>2.0.1</version><!-- 1.0.0 -->
   </parent>
   <groupId>mx.teca2015.tecaExport.tecaExportSan</groupId>
   <artifactId>TecaExportSan</artifactId>
+	<version>2.0.1</version><!-- 2.0.0 -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
+<!-- 
 	<repositories>
 		<repository>
 			<id>bncf</id>
@@ -28,7 +30,8 @@
 			<url>http://maven.bncf.firenze.sbn.it/artifactory/libs-release-local</url>
 		</repository>
 	</distributionManagement>
-	<build>
+ -->
+ 	<build>
 		<resources>
 			<resource>
 				<directory>${basedir}/src/main/java</directory>
@@ -50,7 +53,7 @@
 		<dependency>
 			<groupId>mx.teca2015.tecaExport.schema</groupId>
 			<artifactId>TecaSchemaSan</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>jexcelapi</groupId>
@@ -60,12 +63,12 @@
 		<dependency>
 			<groupId>mx.teca2015.tecaExport.schema</groupId>
 			<artifactId>TecaSchedaEac</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.1</version><!-- 1.0.0 -->
 		</dependency>
 		<dependency>
 			<groupId>mx.randalf.configuration</groupId>
 			<artifactId>RandalfConfiguration</artifactId>
-			<version>1.0.2</version>
+			<version>2.0.2</version><!-- 1.0.2 -->
 		</dependency>
 		<dependency>
 			<groupId>mx.teca2015.tecaExport.schema</groupId>
@@ -73,5 +76,4 @@
 			<version>2.0.2</version>
 		</dependency>
 	</dependencies>
-	<version>2.0.0</version>
 </project>
